@@ -17,8 +17,8 @@ class Movie {
 
   factory Movie.fromJson(Map<String, dynamic> json) {
     return Movie(
-      backdrop_path: json['backdrop_path'],
-      id: json['id'],
+      backdrop_path: json['backdrop_path'] ?? '',
+      id: json['id'] ?? 0,
       poster_path:
           'https://image.tmdb.org/t/p/w600_and_h900_bestv2/${json['poster_path']}',
       vote_average: '${json['vote_average']}',
@@ -28,7 +28,6 @@ class Movie {
   }
   @override
   String toString() {
-    // TODO: implement toString
     return 'Movie('
         'title: $title'
         ')';

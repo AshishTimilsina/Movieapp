@@ -4,4 +4,5 @@ class Api {
   static const popularMovie = '/movie/popular';
   static const topRatedMovie = '/movie/top_rated';
   static const upComingMovie = '/movie/upcoming';
+  static const searchMovie = '/search/movie';
 }

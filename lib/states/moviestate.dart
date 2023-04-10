@@ -5,6 +5,7 @@ class MovieState {
   final bool isSuccess;
   final String errMessage;
   final bool isLoad;
+  final bool isLoadMore;
   final List<Movie> movies;
   final int page;
   MovieState(
@@ -12,6 +13,7 @@ class MovieState {
       required this.isSuccess,
       required this.errMessage,
       required this.isLoad,
+      required this.isLoadMore,
       required this.movies,
       required this.page});
 
@@ -20,6 +22,7 @@ class MovieState {
     bool? isSuccess,
     String? errMessage,
     bool? isLoad,
+    bool? isLoadMore,
     List<Movie>? movies,
     int? page,
   }) {
@@ -28,6 +31,7 @@ class MovieState {
         isSuccess: isSuccess ?? this.isSuccess,
         errMessage: errMessage ?? this.errMessage,
         isLoad: isLoad ?? this.isLoad,
+        isLoadMore: isLoadMore ?? this.isLoadMore,
         movies: movies ?? this.movies,
         page: page ?? this.page);
   }
@@ -38,6 +42,7 @@ class MovieState {
       isSuccess: false,
       errMessage: '',
       isLoad: false,
+      isLoadMore: false,
       movies: [],
       page: 1,
     );

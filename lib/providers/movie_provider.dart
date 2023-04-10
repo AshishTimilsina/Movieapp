@@ -20,7 +20,7 @@ class MovieProvider extends StateNotifier<MovieState> {
     final response = await services.getdata(apiPath: apiPath, page: state.page);
     response.fold((l) {
       state = state.copyWith(
-        isLoad: false,
+        isLoad: state.isLoadMore ? false : true,
         movies: [],
         isError: true,
         errMessage: l,
@@ -32,8 +32,13 @@ class MovieProvider extends StateNotifier<MovieState> {
         isError: false,
         isLoad: false,
         isSuccess: true,
-        movies: r,
+        movies: [...state.movies, ...r],
       );
     });
+  }
+
+  void loadmore() async {
+    state = state.copyWith(page: state.page + 1, isLoadMore: true);
+    getdata();
   }
 }
