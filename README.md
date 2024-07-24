@@ -1,16 +1,12 @@
 # mymovieapp
 
-A new Flutter project.
+A new Flutter project named PopcornFlix 
 
-## Getting Started
+![Screenshot (87)](https://github.com/user-attachments/assets/e3ebea98-515f-45f0-9bf9-1e6001e3b486)
+![Screenshot (88)](https://github.com/user-attachments/assets/19bc88df-71bb-4666-aaec-02a9584408ea)
+![Screenshot (89)](https://github.com/user-attachments/assets/54503fd6-8e51-4827-a739-465bbda00baf)
+![Screenshot (90)](https://github.com/user-attachments/assets/487b45c2-b3ac-4d16-b761-ad8ca883a1b3)
+![Screenshot (91)](https://github.com/user-attachments/assets/8c48c40b-c2a1-4f1e-a3ae-b973dcebf275)
+![Screenshot (92)](https://github.com/user-attachments/assets/51d24ce6-b3c7-424c-be9e-4de911f5af3e)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
