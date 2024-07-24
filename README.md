@@ -7,6 +7,7 @@ A new Flutter project named PopcornFlix
 ![Screenshot (89)](https://github.com/user-attachments/assets/54503fd6-8e51-4827-a739-465bbda00baf)
 ![Screenshot (90)](https://github.com/user-attachments/assets/487b45c2-b3ac-4d16-b761-ad8ca883a1b3)
 ![Screenshot (91)](https://github.com/user-attachments/assets/8c48c40b-c2a1-4f1e-a3ae-b973dcebf275)
-![Screenshot (92)](https://github.com/user-attachments/assets/51d24ce6-b3c7-424c-be9e-4de911f5af3e)
+![Screenshot (92)](https://github.com/user-attachments/assets/59f87556-6477-4a92-bacc-a2f3c9ae60be)
+
 
 
